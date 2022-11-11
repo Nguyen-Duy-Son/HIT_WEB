@@ -42,7 +42,7 @@ header {
 }
 
 .container-left {
-    width: 70%;
+    width: 60%;
 }
 
 nav {
@@ -74,7 +74,7 @@ nav {
 }
 
 .box-khoi {
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -101,7 +101,7 @@ nav {
 }
 
 .container-right {
-    width: 45%;
+    width: 40%;
 }
 
 .posts {
