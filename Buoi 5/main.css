@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.overview {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 50px;
+}
+
+.container {
+    background: rgb(192, 57, 229);
+    padding: 50px;
+}
+
+.box {
+    width: 400px;
+    height: 520px;
+    background-color: azure;
+    text-align: center;
+    margin-left: 520px;
+}
+
+.login {
+    padding-top: 30px;
+}
+
+.username,
+.password {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+hr {
+    width: 300px;
+}
+
+input {
+    border: 0;
+    width: 300px;
+}
+
+.quenmk {
+    padding-right: 78px;
+    text-align: right;
+}
+
+.submit {
+    margin-top: 50px;
+    background: linear-gradient(to right, rgb(211, 84, 243), rgb(103, 212, 219), rgb(131, 175, 226), rgb(205, 89, 241));
+    width: 280px;
+    height: 40px;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid rgb(123, 187, 226);
+}
+
+.signup {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img img {
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
