@@ -4,101 +4,80 @@
     box-sizing: border-box;
 }
 
-.checkbox {
-    background-color: blue;
-    width: 100%;
-    height: 100%;
-    padding: 50px;
+body {
+    background-color: rgb(61, 159, 184);
 }
 
 .container {
     background-color: white;
-    border-radius: 10px;
-    padding-left: 30px;
-    padding-top: 30px;
-    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 303px;
+    margin-right: 303px;
+    height: 620px!important;
+    max-height: 620px!important;
+    border-radius: 20px;
 }
 
 header {
+    padding: 40px;
     display: flex;
-    margin-top: 30px;
-    height: 100px;
+    justify-content: space-between;
 }
 
-li {
-    list-style: none;
+.logo {
+    background-color: rgb(252, 253, 250);
+    border: 1px solid rgb(124, 121, 163);
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    color: rgb(124, 121, 163);
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
 }
 
 a {
     text-decoration: none;
 }
 
-.logo {
-    border-radius: 10px;
-    margin-right: 500px;
-    border: 2px solid #7c6be1;
-    color: #7c6be1;
-    font-weight: bold;
-    height: 24px;
-    font-size: 20px;
-}
-
-.menu {
+.header-menu {
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    width: 700px;
-}
-
-.menu li {
-    color: #7c6be1;
-    font-size: 20px;
-    height: 40px;
-}
-
-.box-mid {
-    width: 50%;
-    text-align: center;
-}
-
-.b1 p {
-    font-size: 100px;
-}
-
-.b2 p {
-    font-size: 50px;
-}
-
-.b3 p {
-    font-size: 30px;
-    padding-bottom: 50px;
+    width: 400px;
+    justify-content: space-around;
+    color: rgb(210, 206, 229);
 }
 
 nav {
-    width: 100%;
-    background-image: url('Capture.PNG');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 1100px;
-    height: 540px;
-    border-bottom-right-radius: 10px;
+    display: flex;
+    padding-left: 40px;
 }
 
-.nav-left {
-    color: #7c6be1;
-    width: 700px;
-    padding-left: 50px;
+.nav-content {
+    color: rgb(117, 110, 187);
+    width: 250px!important;
 }
 
-.box-top {
-    width: 700px;
+.nav-content-chuthich {
+    padding-top: 30px;
 }
 
-.box-bottom {
+.nav-content-submit {
+    text-align: center;
+    margin-left: 82px;
+    margin-top: 40px;
+    background-color: rgb(250, 94, 94);
+    border: 0;
+    border-radius: 20px;
     color: white;
-    width: 150px;
-    height: 50px;
-    margin-top: 50px;
-    border-radius: 15px;
-    background-color: rgb(235, 98, 98);
-    margin-left: 90px;
+    width: 70px;
+    height: 25px;
+}
+
+.nav-img img {
+    text-align: right;
+    height: 505px;
+    border-radius: 20px;
+    width: 100%;
 }
