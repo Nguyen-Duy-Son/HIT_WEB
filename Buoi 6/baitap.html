@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylevidu.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .container__box {
+            background-color: blue;
+            height: 80px;
+            width: 80px;
+            margin: 10px;
+        }
+        
+        .container__box:nth-child(3n+1) {
+            background-color: red;
+        }
+        
+        .container__box:nth-last-child(2n+1) {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__box"></div>
+        <div class="container__box"></div>
+        <div class="container__box"></div>
+        <div class="container__box"></div>
+        <div class="container__box"></div>
+        <div class="container__box"></div>
+        <div class="container__box"></div>
+        <div class="container__box"></div>
+    </div>
+    <h1>Track your progress with the free "My Learning" program here at W3Schools. Log in to your account, and start earning points! This is an optional feature. You can study W3Schools without using My Learning.</h1>
+    <div class="box">
+        <div class="box__item item">1</div>
+        <div class="box__item">2</div>
+        <div class="box__item">3</div>
+        <div class="box__item">4</div>
+        <div class="box__item">5</div>
+        <div class="box__item">6</div>
+        <div class="box__item">7</div>
+        <div class="box__item">8</div>
+        <div class="box__item">9</div>
+    </div>
+</body>
+
+</html>

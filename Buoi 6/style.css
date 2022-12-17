@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container__header {
+    display: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    padding-right: 70px;
+}
+
+.container__header--right {
+    display: flex;
+    justify-content: space-around;
+}
